@@ -24,7 +24,7 @@ class Solution:
             # пока римское число начинается буквы из словаря
             while roman.startswith(r):
                 # увеличиваем десятичное число на соответствующее значение из словаря
-                dec += i
+                dec += i            
                 # убираем найденную букву из римского числа
                 roman = roman[len(r):]
         # как все циклы закончились — возвращаем десятичное число
@@ -33,4 +33,4 @@ class Solution:
 
 a=Solution()
 
-print(a.romanToInt('IX')) 
+print(a.romanToInt('MMXXIX')) 
