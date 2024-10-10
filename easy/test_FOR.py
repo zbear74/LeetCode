@@ -18,3 +18,28 @@ for i,r  in all_roman:
    print(i,r) 
 
 
+print("========NUM==============")
+a=b=c=1
+print(a,b,c)
+b+=1
+print(a,b,c)
+c+=1
+print(a,b,c)
+
+print("========LIST==============")
+a=b=c=[1]
+print(a,b,c)
+b[0]+=1
+print(a,b,c)
+c[0]+=1
+print(a,b,c)
+
+print("========STR==============")
+a=b=c="a"
+print(a,b,c)
+b="b"
+print(a,b,c)
+c="c"
+print(a,b,c)
+
+
