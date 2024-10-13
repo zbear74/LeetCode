@@ -4,7 +4,7 @@
         
 class Solution:
          
-    def removeDuplicates(self, nums: [int] ) :
+    def removeDuplicates(self, nums: list [int] ) -> int :
         uniq_val = nums[0]
         unique_cnt = 1
         curr_idx = 0 
