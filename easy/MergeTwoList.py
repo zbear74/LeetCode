@@ -74,15 +74,3 @@ d.printListNode()
             
         
         
-
-# ### TEST
-
-# list11 = [1,2,4]
-# list12 = [1,3,4]
-
-# list21 = []
-# list22 = []
-
-# list31 = []
-# list32 = [0]
-
