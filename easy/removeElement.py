@@ -17,35 +17,6 @@ class Solution:
         return original_len_nums - val_cnt
         
         
-        
-        
-        # 2 variant - in comment - because - not approve leetCode for nums3
-        # val_cnt = 0
-        # curr_idx = 0 
-        # ins_idx = len(nums)-1
-        
-        
-        # while curr_idx < len(nums) and ins_idx > 0 :
-            
-        #     if  nums[curr_idx] == val:
-        #         if nums[ins_idx] != val:#and curr_idx < ins_idx:
-        #             nums[curr_idx] = nums[ins_idx]
-        #             curr_idx +=1
-        #             val_cnt +=1
-        #             ins_idx -=1
-        #         else:
-        #             ins_idx -=1
-        #             nums[ins_idx]=val+1
-        #     else:
-        #         curr_idx +=1
-        # result = len(nums) - val_cnt
-        # if result == len(nums):
-        #  return len(nums) - val_cnt        
-            
-            
-            
-            
-            
             
 
 nums1 = [3,2,2,3]
