@@ -11,7 +11,6 @@ class Solution:
         s = str(dig)
         digits =list(s)
         for i in range(0,len(digits)):            
-            #digits.pop(i)
             digits.insert(i, int(digits[i]))
             digits.pop(i+1)
         
