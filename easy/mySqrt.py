@@ -17,5 +17,5 @@ class Solution:
 
 
 print(Solution().mySqrt(4))
-print(Solution().mySqrt(8))
+print(Solution().mySqrt(144))
   
