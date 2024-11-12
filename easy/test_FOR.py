@@ -46,3 +46,6 @@ print(a,b,c)
 
 print("results // : ",7//5)
 print("results % : ",7%5)
+
+root =[]
+print(len(root)) 
