@@ -35,10 +35,8 @@ class Solution:
         if (p == None and q != None) or ( p != None and q == None):
             return False
         
-        # cur1 = p
-        # cur2 = q
         
-        if (p.val == q.val): #or ( p.val is None and q.val is None):
+        if (p.val == q.val): 
             if p.left != None and q.left != None:
                 result = self.isSameTree(p.left,q.left)
                 if result == False:
