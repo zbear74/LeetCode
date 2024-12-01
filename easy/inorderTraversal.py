@@ -27,7 +27,7 @@ class TreeNode:
 
 
 class Solution:
-    def inorderTraversal(self, root:[TreeNode]) -> list[int]:
+    def inorderTraversal(self, root:TreeNode) -> list[int]:
       
       result = []
       goDown = True     
