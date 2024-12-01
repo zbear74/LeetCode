@@ -24,8 +24,6 @@ class TreeNode:
             self.right.printTreeNode()
 
 class Solution:
-    maxLenght = 0
-    curr_Lenght = 0
     
     left = 0
     right= 0
